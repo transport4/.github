@@ -105,6 +105,15 @@ jobs:
               );
             }
 
+            const hasJiraTicket = isChecked("Has Jira Ticket?");
+            const jiraTicketPattern = /[A-Z][A-Z0-9]+-[0-9]+/;
+
+            if (hasJiraTicket && !jiraTicketPattern.test(pr.title)) {
+              errors.push(
+                "PR title must contain a Jira ticket (for example, PROJ-123) when \"Has Jira Ticket?\" is checked."
+              );
+            }
+
             const attestations = [
               "Automated checks pass or have a documented exception.",
               "I performed an adversarial review.",
