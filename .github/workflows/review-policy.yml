@@ -1,6 +1,10 @@
 name: Review policy
 
 on:
+  # Repositories opt into this policy via a thin caller workflow. Workflows in
+  # the organisation's .github repository are not inherited or run otherwise.
+  workflow_call:
+
   pull_request:
     types:
       - opened
