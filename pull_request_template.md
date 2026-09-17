@@ -26,6 +26,13 @@ What concerns were identified, and how were they resolved?
 
 How will we detect problems, disable the change, or roll it back?
 
+## Jira
+
+- [ ] Has Jira Ticket?
+
+If checked, the pull request title must contain a Jira ticket key (for example,
+`PROJ-123`).
+
 ## Review classification
 
 Select exactly one:
