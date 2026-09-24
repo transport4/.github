@@ -1,30 +1,8 @@
-## Intent
+## Summary
 
-What problem does this change solve?
-
-## Approach
-
-How does the solution work at a high level?
-
-## Key decisions
-
-Why this approach rather than the main alternatives?
-
-## Failure modes
-
-Where can it fail, and what happens when it does?
-
-## Validation
-
-What evidence shows that it works?
-
-## Adversarial review
-
-What concerns were identified, and how were they resolved?
-
-## Operational safety
-
-How will we detect problems, disable the change, or roll it back?
+What problem does this change solve, and how does the solution work at a high
+level? Why this approach rather than the main alternatives, and what evidence
+shows that it works?
 
 ## Jira
 
