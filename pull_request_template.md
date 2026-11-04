@@ -11,19 +11,10 @@ shows that it works?
 If checked, the pull request title must contain a Jira ticket key (for example,
 `PROJ-123`).
 
-## Review classification 
-
-Select exactly one:
-
-- [ ] Experiment or prototype
-- [ ] Standard change eligible for self-merge
-- [ ] Independent human review required
-
 ## Author attestation 
 
 - [ ] Automated checks pass or have a documented exception.
 - [ ] I performed an adversarial review.
 - [ ] I can explain and defend this change at a whiteboard.
-- [ ] I identified whether this change requires independent human review.
 
 Checkboxes alone are not enforcement—they need a required status check. To select, indicate via [x] in the above checkboxes
